@@ -11,9 +11,11 @@ FactionsCUSTOM is a factions plugin, with a UI, but that's not all. You can cust
 
 - Outposts -- (Outposts have configurable commands for a configuable interval.)
 
-- Aliies -- (Amount of allies can be configured.)
+- All Basic Commands -- (/f create, /f invite, /f changename, /f disband, /f kick, /f bank, etc...)
 
-- All Basic Commands -- (/f create, /f invite, /f changename, /f disband, /f kick, etc...)
+- Faction Upgrades -- (Upgrade points per kill, money multipliers, etc with faction money!)
+
+- Aliies -- (Amount of allies can be configured.)
 
 - Claims  -- (Claims have custom requirements. Want a maximum amount of players, value, or str in order to claim? We've got you! Claim blacklists so nobody can claim certain areas!)
 
