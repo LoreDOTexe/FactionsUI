@@ -11,7 +11,7 @@ FactionsCUSTOM is a factions plugin, with a UI, but that's not all. You can cust
 
 - Outposts -- (Outposts have configurable commands for a configuable interval.)
 
-- All Basic Commands -- (/f create, /f invite, /f changename, /f disband, /f kick, /f bank, etc...)
+- All Basic Commands -- (/f create, /f invite, /f rename, /f disband, /f kick, /f bank, etc...)
 
 - Faction Upgrades -- (Upgrade points per kill, money multipliers, etc with faction money!)
 
