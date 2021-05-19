@@ -3,5 +3,5 @@ name: FactionsUI
 author: LoreDOTexe
 api: [3.0.0]
 version: 1.0.0
-main: LoreDOTexe\FactionsUI\Main
+main: LoreDOTexe\FactionsUI\Loader
 description: Customizable factions plugin
