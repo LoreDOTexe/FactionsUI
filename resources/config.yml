@@ -1,3 +1,135 @@
+language: "en"
+
+command-name: "f"
+command-alias: ["factions", "facs"]
+
+economy: "EconomyAPI"
+
+upgrades:
+  str-boost:
+    enabled: true
+    level-zero:
+      str-per-kill: 10
+    level-one:
+      str-per-kill: 11
+      cost: 1000000
+    level-two:
+      str-per-kill: 12
+      cost: 2000000
+    level-three:
+      str-per-kill: 13
+      cost: 3000000
+    level-four:
+      str-per-kill: 14
+      cost: 4000000
+    level-five:
+      str-per-kill: 15
+      cost: 5000000
+    level-six:
+      str-per-kill: 16
+      cost: 6000000
+    level-seven:
+      str-per-kill: 17
+      cost: 7000000
+    level-eight:
+      str-per-kill: 18
+      cost: 8000000
+    level-nine:
+      str-per-kill: 19
+      cost: 9000000
+    level-ten:
+      str-per-kill: 20
+      cost: 10000000
+  member-boost:
+    enabled: true
+    level-zero:
+      member-count: 10
+    level-one:
+      member-count: 11
+      cost: 1000000
+    level-two:
+      member-count: 12
+      cost: 2000000
+    level-three:
+      member-count: 13
+      cost: 3000000
+    level-four:
+      member-count: 14
+      cost: 4000000
+    level-five:
+      member-count: 15
+      cost: 5000000
+    level-six:
+      member-count: 16
+      cost: 6000000
+    level-seven:
+      member-count: 17
+      cost: 7000000
+    level-eight:
+      str-per-kill: 18
+      cost: 8000000
+    level-nine:
+      member-count: 19
+      cost: 9000000
+    level-ten:
+      member-count: 20
+      cost: 10000000
+    level-eleven:
+      member-count: 21
+      cost: 11000000
+    level-twelve:
+      member-count: 22
+      cost: 12000000
+    level-thirteen:
+      member-count: 23
+      cost: 13000000
+    level-fourteen:
+      str-per-kill: 24
+      cost: 14000000
+    level-fifteen:
+      member-count: 25
+      cost: 15000000
+    level-sixteen:
+      member-count: 26
+      cost: 16000000
+    level-seventeen:
+      member-count: 27
+      cost: 17000000
+    level-eighteen:
+      member-count: 28
+      cost: 18000000
+    level-nineteen:
+      member-count: 29
+      cost: 19000000
+    level-twenty:
+      member-count: 30
+      cost: 20000000
+  claim-boost:
+    enabled: true
+    level-zero:
+      blocks: 15 #does not include the Y axis, claims go all the way up and down
+    level-one:
+      blocks: 20
+      cost: 1000000
+    level-two:
+      blocks: 40
+      cost: 1100000
+    level-three:
+      blocks: 60
+      cost: 1200000
+    level-four:
+      blocks: 80
+      cost: 1300000
+    level-four:
+      blocks: 100
+      cost: 1400000
+
+top-calculator:
+  str:
+    enabled: true
+  value:
+    enabled: true
+  
 outpost:
   enabled: true
   update-interval: 1
