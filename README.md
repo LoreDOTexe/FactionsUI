@@ -1,4 +1,4 @@
-# FactionsUI [NOT FOR PRODUCTION USE / UNFINISHED]
+# FactionsUI [NOT FOR PRODUCTION USE / INCOMPLETE]
 
 ## What is FactionsUI?
 FactionsUI is a factions plugin, with a UI, but that's not all. You can customize everything from the command alias to the help messages to enabling and disabling certain subcommands. Maybe you want to change how the top factions are calculated! No problem, this plugin has your back!
