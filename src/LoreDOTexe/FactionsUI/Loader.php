@@ -1,6 +1,6 @@
 <?php
 
-namespace LoreDOTexe/FactionsUI;
+namespace LoreDOTexe\FactionsUI;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
