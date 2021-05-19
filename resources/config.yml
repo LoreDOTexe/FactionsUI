@@ -120,7 +120,7 @@ upgrades:
     level-four:
       blocks: 80
       cost: 1300000
-    level-four:
+    level-five:
       blocks: 100
       cost: 1400000
 
