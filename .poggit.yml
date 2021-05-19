@@ -5,6 +5,8 @@ branches:
 projects:
   FactionsUI:
     path: ""
+    excludeFiles:
+      - "README.md"
     libs:
       # - src: https://poggit.pmmp.io/r/101416/libFormAPI_dev-3.phar
       - src: jojoe77777/FormAPI/libFormAPI
