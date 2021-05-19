@@ -1,1 +1,9 @@
-
+outpost:
+  enabled: true
+  update-interval: 1
+  reward-interval: 60
+  position:
+    world:
+    x: 
+    y:
+    z:
