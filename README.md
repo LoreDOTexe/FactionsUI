@@ -1,7 +1,7 @@
 ## FactionsUI
 [![Poggit](https://poggit.pmmp.io/ci.shield/LoreDOTexe/FactionsUI/FactionsUI)](https://poggit.pmmp.io/ci/LoreDOTexe/FactionsUI/FactionsUI)
 
-# NOTICE: THIS PLUGIN IS INCOMPLETE
+# 🚨 NOTICE: THIS PLUGIN IS INCOMPLETE 🚨
 
 ### After executing /f create [name], your players can then do /f manage to bring up a UI!
 
