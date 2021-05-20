@@ -1,1 +1,64 @@
+---
 
+#  oooooooooooo                         .    o8o                                 ooooo     ooo ooooo 
+#  `888'     `8                       .o8    `"'                                 `888'     `8' `888' 
+#   888          .oooo.    .ooooo.  .o888oo oooo   .ooooo.  ooo. .oo.    .oooo.o  888       8   888  
+#   888oooo8    `P  )88b  d88' `"Y8   888   `888  d88' `88b `888P"Y88b  d88(  "8  888       8   888  
+#   888    "     .oP"888  888         888    888  888   888  888   888  `"Y88b.   888       8   888  
+#   888         d8(  888  888   .o8   888 .  888  888   888  888   888  o.  )88b  `88.    .8'   888  
+#  o888o        `Y888""8o `Y8bod8P'   "888" o888o `Y8bod8P' o888o o888o 8""888P'    `YbodP'    o888o
+
+factions:
+  default-str-per-kill: 10
+  str-multiplier:
+    level-zero: 1
+    level-one: 1.2
+    level-two: 1.4
+    level-three: 1.6
+    level-four: 1.8
+    level-five: 20
+  claim-size: #Of what radius should players be able to claim?
+    level-zero: 10
+    level-one: 20
+    level-two: 30
+    level-three: 40
+    level-four: 50
+    level-five: 60
+  alliances: #How many alliances should a faction have?
+    level-zero: 0
+    level-one: 1
+    level-two: 2
+    level-three: 3
+  member-count: #Of what radius should players be able to claim?
+    level-zero: 10
+    level-one: 12
+    level-two: 14
+    level-three: 16
+    level-four: 18
+    level-five: 20
+  flight-in-claim:
+    level-zero: false
+    level-one: true
+  
+outpost:
+  enabled: true
+  players-online: 10 #How many players need to be online in order to claim outpost.
+  update-interval: 1 #How fast should the outpost update?
+  world: ""
+  x: 0
+  y: 0
+  z: 0
+  rewards:
+    reward-interval: 60 #How many seconds should pass until players get rewards?
+    money:
+      - 10000
+    strength:
+      - 10
+    commands:
+      - "give {member} diamond 1"
+      - "ftell {member} &aYou have been given a diamond because your faction, &2{faction}&a, is controlling the outpost!"
+
+miscellaneous:
+  strikes-before-disband: 5
+  obsidian-explodes: true
+  claim-blacklist: [] #Do not edit this. The plugin fills this out in /f admin!
