@@ -11,9 +11,9 @@ use LoreDOTexe\FactionsUI\FactionsCommand;
 use LoreDOTexe\FactionsUI\FactionsManager;
 use LoreDOTexe\FactionsUI\FactionsEvents;
 
-private $config;
-
 class Loader extends PluginBase{
+
+    private $config;    
 
     public function onEnable(){
 
