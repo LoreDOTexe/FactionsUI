@@ -23,6 +23,14 @@ class FactionsEvents implements Listener{
         
     }
 
+    public function onPlace(BlockPlaceEvent $event){
+
+    }
+
+    public function onBreak(BlockBreakEvent $event){
+
+    }
+
     public function onAttack(EntityDamageEvent $event) {
         $damaged = $event->getEntity();
         if($damaged instanceof Player){
