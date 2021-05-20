@@ -34,8 +34,8 @@ class FactionsEvents implements Listener{
     public function onAttack(EntityDamageEvent $event) {
         $damaged = $event->getEntity();
         if($damaged instanceof Player){
-            $cause = $event->getCause();
-            if($cause instanceof EntityDamageByEntityEvent){
+            if($event instanceof EntityDamageByEntityEvent){
+                $cause = $event->getCause();
                 $damager = $cause->getDamager();
                 if($damager instanceof Player){
                     if(FactionsManager::getFaction($damaged->getName()) == FactionsManager::getFaction($damager->getName()) && FactionsManager::getFaction($damaged->getName()) !== ""){
