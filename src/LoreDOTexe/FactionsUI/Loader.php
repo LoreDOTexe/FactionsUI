@@ -20,7 +20,7 @@ class Loader extends PluginBase{
         $this->saveDefaultConfig();
         $config = $this->getConfig();
       
-        $this->getServer()->getPluginManager()->registerEvents(new FactionsEvents($this), $this);
+        $this->getServer()->getPluginManager()->registerEvents(new FactionsEvents(), $this);
         $this->getServer()->getCommandMap()->register("f", new FactionsCommand($this));
 
     }
