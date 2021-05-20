@@ -34,3 +34,9 @@
 | `Force Unclaim` |`Removes a faction claim.` | `factionsui.admin.unclaim` |
 | `Toggle Chat` |`Lets admins see /f chat!` | `factionsui.admin.seechat` |
 | `Strike` |`Adds a penalty strike to a faction. Once it reaces a configurable amount, it will be automatically disbanded.` | `factionsui.admin.strike' |
+
+### Additional Features:
+- **Outposts**! Configure an outpost and its rewards, claiming speed, and more!
+- Regions which cannot be claimed!
+- Configure absolutely ALL messages!
+
